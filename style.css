@@ -2,8 +2,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    margin: 0;
     background-color: #f1d4ff; 
 }
 
@@ -16,11 +14,11 @@ body {
     align-items: center;
     border-radius: 5px;
     padding: 20px;
-    position: relative;
+     position: relative;
 
 }
 
-#meuBotao {
+#botaonao {
     padding: 10px 20px;
     background-color: #ec2222; /* Vermelho */
     color: white;
@@ -28,6 +26,7 @@ body {
     border-radius: 5px;
     cursor: pointer;
     font-size: 30px;
+    position: relative;
 }
 
 #botaosim {
