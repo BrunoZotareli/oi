@@ -1,5 +1,5 @@
 function mudarPosicao() {
-    var botao = document.getElementById("meuBotao");
+    var botao = document.getElementById("botaonao");
     var novaPosicaoTop = Math.random() * 450;
     var novaPosicaoLeft = Math.random() * 450;
     botao.style.top = novaPosicaoTop + "px";
@@ -7,7 +7,7 @@ function mudarPosicao() {
 }
 
 function mostrazap() {
- 
+
     var imagem = document.getElementById('imagem');
     imagem.style.display = 'block';  // Exibe a imagem
 
